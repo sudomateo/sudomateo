@@ -14,6 +14,8 @@ Hello! My name is Matthew Sanabria (he/him).
 
 ![Matthew Sanabria's GitHub statistics.](https://github-readme-stats.vercel.app/api?username=sudomateo&show_icons=true&theme=gruvbox)
 
+![Matthew Sanabria's Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sudomateo&layout=compact&theme=gruvbox)
+
 <!--
 **sudomateo/sudomateo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
