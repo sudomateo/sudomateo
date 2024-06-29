@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>OAuth2 Example</h1>
+    {{ if not .AccessToken }}
+    <h2>
+        <a href="https://github.com/login/oauth/authorize?scope={{ join .OAuthConfig.Scopes `,` }}&client_id={{ .OAuthConfig.ClientID }}">Sign in with GitHub</a>
+    </h2>
+    {{ end }}
+    {{ if .UserInfo }}
+    <h2>
+        Hello, {{ .UserInfo.Login }}!
+    </h2>
+    <h3>
+        ID: {{ .UserInfo.ID }}!
+    </h3>
+    {{ end }}
+</body>
+</html>
