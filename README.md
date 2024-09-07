@@ -12,6 +12,10 @@ Hello! Here's where you can find me online.
 Check out [Learning](learning) for the source code for my blog posts, videos,
 etc.
 
+## Speaking
+
+Check out [Speaking](speaking) for slides and recordings for my talks.
+
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin
 [linkedin]: https://www.linkedin.com/in/sudomateo/
 [x-badge]: https://img.shields.io/badge/X-%23000000?style=for-the-badge&logo=x
