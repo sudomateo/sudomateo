@@ -8,3 +8,5 @@ a senior engineer struggling to have the impact needed to go beyond, this talk
 is for you! Bring your experience and your questions and let's discuss them!
 
 Find the slides at [slides.pdf](./slides.pdf).
+
+Find the recording on [YouTube](https://youtu.be/dnvRv7OyItE).
