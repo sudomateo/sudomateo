@@ -8,4 +8,4 @@ becoming an established Software Engineer.
 
 Watch the episode on [YouTube][youtube].
 
-[youtube]: https://youtu.be/gMUF_bYJQjQ?feature=shared] "Terraform, Linux, and College with Matthew Sanabria"
+[youtube]: https://youtu.be/gMUF_bYJQjQ?feature=shared "Terraform, Linux, and College with Matthew Sanabria"
