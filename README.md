@@ -2,7 +2,9 @@
 
 Hello! Here's where you can find me online.
 
+[![Bluesky][bluesky-badge]][bluesky]
 [![LinkedIn][linkedin-badge]][linkedin]
+[![Mastodon][mastodon-badge]][mastodon]
 [![X][x-badge]][x]
 [![YouTube][youtube-badge]][youtube]
 [![Website][website-badge]][website]
@@ -16,8 +18,12 @@ etc.
 
 Check out [Speaking](speaking) for slides and recordings for my talks.
 
+[bluesky-badge]: https://img.shields.io/badge/Bluesky-%230285FF?style=for-the-badge&logo=bluesky
+[bluesky]: https://bsky.app/profile/matthewsanabria.dev
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin
 [linkedin]: https://www.linkedin.com/in/sudomateo/
+[mastodon-badge]: https://img.shields.io/badge/Mastodon-%236364FF?style=for-the-badge&logo=mastodon
+[mastodon]: https://mastodon.online/@sudomateo
 [x-badge]: https://img.shields.io/badge/X-%23000000?style=for-the-badge&logo=x
 [x]: https://x.com/sudomateo
 [youtube-badge]: https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=youtube
