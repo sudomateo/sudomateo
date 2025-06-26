@@ -1,0 +1,4 @@
+= My Favorite Go 1.25 Features
+
+Source code for my https://youtu.be/tDWZwb9Oioo[My Favorite Go 1.25 Features]
+video.
