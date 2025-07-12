@@ -1,13 +1,7 @@
 # Matthew Sanabria
 
-Hello! Here's where you can find me online.
-
-[![Bluesky][bluesky-badge]][bluesky-link]
-[![LinkedIn][linkedin-badge]][linkedin-link]
-[![Mastodon][mastodon-badge]][mastodon-link]
-[![X][x-badge]][x-link]
-[![YouTube][youtube-badge]][youtube-link]
-[![Website][website-badge]][website-link]
+Hello! Find my socials, writing, and contact information at
+https://matthewsanabria.dev/.
 
 ## Learning
 
