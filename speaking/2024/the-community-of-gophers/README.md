@@ -1,16 +1,11 @@
 # The community of gophers
 
-This week we're taking you to the hallway track of All Things Open 2023 in
-Raleigh, NC. Today’s episode features: Matthew Sanabria (former Engineer at
-HashiCorp working on Terraform Enterprise), Nithya Ruff (Chief Open Source
-Officer and Head of the Open Source Program Office at Amazon) & Jordan Harband
-(Open Source Maintainer-at-large with dependencies in most JavaScript apps out
-there.
+On this episode, Angelica is joined by Go community leaders from around the
+world: meetup organizers from Guadalajara, St. Louis, New York & Go Bridge
+Atlanta. Together, they explore the ins & outs of organizing meetups, the
+benefits of attending, the Go Developer Network (GDN) & the current state of the
+Go Meetup community.
 
-There has been many changes this year in open source, and each of these
-perspectives lends insight into challenging and changing waters happening right
-now in open source.
+Listen to the episode on [GoTime][gotime].
 
-Listen the episode on [GoTime][gotime].
-
-[gotime]: https://changelog.fm/563  "The community of gophers"
+[gotime]: https://changelog.com/gotime/329 "The community of gophers"

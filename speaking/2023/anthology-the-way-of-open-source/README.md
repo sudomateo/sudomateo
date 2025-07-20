@@ -7,10 +7,10 @@ Officer and Head of the Open Source Program Office at Amazon) & Jordan Harband
 (Open Source Maintainer-at-large with dependencies in most JavaScript apps out
 there.
 
-There has been many changes this year in open source, and each of these
+There have been many changes this year in open source, and each of these
 perspectives lends insight into challenging and changing waters happening right
 now in open source.
 
-Listen the episode on [Changelog][changelog].
+Listen to the episode on [Changelog][changelog].
 
 [changelog]: https://changelog.fm/563 "ANTHOLOGY — The way of open source"

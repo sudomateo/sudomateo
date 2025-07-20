@@ -30,7 +30,7 @@ type App struct {
 	UserInfo     *UserInfo
 }
 
-// Root renders the home page that's user to sign in or show user information.
+// Root renders the home page that's used to sign in or show user information.
 func (a *App) Root(w http.ResponseWriter, r *http.Request) {
 	// We don't have an access token for this user. Render the sign-in page.
 	if a.AccessToken == "" {
