@@ -1,0 +1,13 @@
+= Go Concurrency Concepts - Goroutines, WaitGroups, and Channels
+
+Source code for my
+https://youtu.be/wiU4ssdJAfI[Go Concurrency Concepts - Goroutines, WaitGroups, and Channels] video.
+
+== Usage
+
+Run the code.
+
+[source,bash]
+----
+> go run .
+----

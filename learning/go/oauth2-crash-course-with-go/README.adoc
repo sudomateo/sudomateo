@@ -1,14 +1,15 @@
-# OAuth2 Crash Course with Go
+= OAuth2 Crash Course with Go
 
-Source code for my [OAuth2 Crash Course with Go](https://youtu.be/oAtjcbE-pMs)
+Source code for my https://youtu.be/oAtjcbE-pMs[OAuth2 Crash Course with Go]
 video.
 
-## Usage
+== Usage
 
 Export the necessary environment variables and run the code.
 
-```
+[source,bash]
+----
 > export EXAMPLE_CLIENT_ID='<get-this-from-github>'
 > export EXAMPLE_CLIENT_SECRET='<get-this-from-github>'
 > go run .
-```
+----

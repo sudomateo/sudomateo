@@ -1,0 +1,20 @@
+= Interfaces in Go - Discovering Behavior
+
+Source code for my
+https://youtu.be/cMT9Tqx30FU[Interfaces in Go - Discovering Behavior] video.
+
+== Usage
+
+Run the code.
+
+[source,bash]
+----
+> go run .
+----
+
+Run the tests.
+
+[source,bash]
+----
+> go test -v ./...
+----
