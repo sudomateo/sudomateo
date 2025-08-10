@@ -1,0 +1,12 @@
+= Speaking
+
+A collection of talks, slides, and other speaking engagements.
+
+* 2025-05-05 - link:2025/solutions-software-engineering-with-matthew-sanabria[Solutions Software Engineering with Matthew Sanabria]
+* 2025-03-08 - link:2025/baking-a-turingpi-in-the-home-lab[Baking a TuringPi in the Home Lab]
+* 2024-11-06 - link:2024/using-opentelemetry-to-migrate-across-observability-providers[Using OpenTelemetry to Migrate Across Observability Providers]
+* 2024-10-25 - link:2024/pointers-and-interfaces-in-go[Pointers & Interfaces in Go]
+* 2024-09-07 - link:2024/i-just-cant-wait-to-be-senior[I Just Can't Wait to Be Senior]
+* 2024-08-08 - link:2024/the-community-of-gophers[The community of gophers]
+* 2023-10-27 - link:2023/anthology-the-way-of-open-source[ANTHOLOGY — The way of open source]
+* 2023-02-01 - link:2023/terraform-linux-college[Terraform, Linux, and College with Matthew Sanabria]
