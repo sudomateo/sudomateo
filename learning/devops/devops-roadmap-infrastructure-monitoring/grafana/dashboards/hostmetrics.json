@@ -1,0 +1,170 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "links": [],
+  "panels": [
+    {
+      "title": "CPU Usage %",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "min": 0,
+          "max": 1
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": { "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "multi" }
+      },
+      "targets": [
+        {
+          "expr": "1 - avg(rate(system_cpu_time_seconds_total{state=\"idle\"}[1m]))",
+          "legendFormat": "CPU Usage",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "title": "Memory Usage",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "fieldConfig": {
+        "defaults": { "unit": "bytes" },
+        "overrides": []
+      },
+      "options": {
+        "legend": { "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "multi" }
+      },
+      "targets": [
+        {
+          "expr": "system_memory_usage_bytes{state=\"used\"}",
+          "legendFormat": "Used",
+          "refId": "A"
+        },
+        {
+          "expr": "system_memory_usage_bytes{state=\"free\"}",
+          "legendFormat": "Free",
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "title": "System Load Average",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "options": {
+        "legend": { "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "multi" }
+      },
+      "targets": [
+        {
+          "expr": "system_cpu_load_average_1m",
+          "legendFormat": "1m",
+          "refId": "A"
+        },
+        {
+          "expr": "system_cpu_load_average_5m",
+          "legendFormat": "5m",
+          "refId": "B"
+        },
+        {
+          "expr": "system_cpu_load_average_15m",
+          "legendFormat": "15m",
+          "refId": "C"
+        }
+      ]
+    },
+    {
+      "title": "Network I/O",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "fieldConfig": {
+        "defaults": { "unit": "Bps" },
+        "overrides": []
+      },
+      "options": {
+        "legend": { "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "multi" }
+      },
+      "targets": [
+        {
+          "expr": "sum(rate(system_network_io_bytes_total{direction=\"transmit\"}[1m]))",
+          "legendFormat": "Transmit",
+          "refId": "A"
+        },
+        {
+          "expr": "sum(rate(system_network_io_bytes_total{direction=\"receive\"}[1m]))",
+          "legendFormat": "Receive",
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "title": "Disk I/O",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 16 },
+      "fieldConfig": {
+        "defaults": { "unit": "Bps" },
+        "overrides": []
+      },
+      "options": {
+        "legend": { "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "multi" }
+      },
+      "targets": [
+        {
+          "expr": "sum(rate(system_disk_io_bytes_total{direction=\"read\"}[1m]))",
+          "legendFormat": "Read",
+          "refId": "A"
+        },
+        {
+          "expr": "sum(rate(system_disk_io_bytes_total{direction=\"write\"}[1m]))",
+          "legendFormat": "Write",
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "title": "Filesystem Usage",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 16 },
+      "fieldConfig": {
+        "defaults": { "unit": "bytes" },
+        "overrides": []
+      },
+      "options": {
+        "legend": { "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "multi" }
+      },
+      "targets": [
+        {
+          "expr": "system_filesystem_usage_bytes{state=\"used\"}",
+          "legendFormat": "Used",
+          "refId": "A"
+        },
+        {
+          "expr": "system_filesystem_usage_bytes{state=\"free\"}",
+          "legendFormat": "Free",
+          "refId": "B"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": ["hostmetrics", "otel"],
+  "templating": { "list": [] },
+  "time": { "from": "now-30m", "to": "now" },
+  "refresh": "10s",
+  "title": "Host Metrics",
+  "uid": "hostmetrics"
+}

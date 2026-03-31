@@ -9,3 +9,4 @@ https://www.youtube.com/@sudomateo[youtube], etc.
 * link:go/oauth2-crash-course-with-go[OAuth2 Crash Course with Go]
 * link:go/interfaces-in-go-discovering-behavior[Interfaces in Go - Discovering Behavior]
 * link:go/go-concurrency-concepts-goroutines-waitgroups-channels[Go Concurrency Concepts - Goroutines, WaitGroups, and Channels]
+* link:devops/devops-roadmap-infrastructure-monitoring[DevOps Roadmap - Infrastructure Monitoring]

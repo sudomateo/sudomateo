@@ -1,0 +1,17 @@
+= DevOps Roadmap - Infrastructure Monitoring
+
+Source code for my
+https://youtu.be/VtIsDnRWpto[DevOps Roadmap - Infrastructure Monitoring] video.
+
+== Usage
+
+This assumes it's running on a Linux host.
+
+[source,bash]
+----
+# Start the compose stack.
+docker compose up -d
+
+# Stop the compose stack.
+docker compose down
+----
